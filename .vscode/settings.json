@@ -1,5 +1,11 @@
 {
     "cSpell.words": [
         "pledgecategory"
-    ]
+    ],
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/d7dcf1e1-4868-40bd-8209-9740f354efea/microsoft.web/sites/subscriptions/d7dcf1e1-4868-40bd-8209-9740f354efea/resourceGroups/SST-CHR-RG-STG/providers/Microsoft.Web/sites/SSTCHRAPISTG001",
+    "appService.deploySubpath": "."
 }

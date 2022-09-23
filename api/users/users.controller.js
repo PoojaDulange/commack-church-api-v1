@@ -22,7 +22,7 @@ module.exports = {
   },
   login: (req, res) => {
     const body = req.body;
-    console.log(body);
+    console.log("&&&", body);
     getUserByEmail(body.email, (err, results) => {
       if (err) {
         console.log(err);
