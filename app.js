@@ -30,6 +30,9 @@ app.use("/api/users", userRouter);
 //   });
 // });
 
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+});
 app.listen(process.env.APP_PORT, () => {
   console.log(`server running on port ${process.env.APP_PORT}`);
 });
