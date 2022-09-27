@@ -1,25 +1,21 @@
 {
   "name": "commack-church-api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "dev": "webpack --config=Scripts/config/webpack.dev.js --watch",
-    "build": "webpack --config=Scripts/config/webpack.prod.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
+    "cookie-parser": "~1.4.4",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.1",
-    "express": "^4.18.1",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.2",
+    "express": "~4.16.1",
     "jsonwebtoken": "^8.5.1",
+    "morgan": "~1.9.1",
     "mysql": "^2.18.1",
-    "nodemon": "^2.0.19",
-    "webpack": "^5.74.0"
+    "nodemon": "^2.0.20"
   },
   "devDependencies": {
     "webpack-cli": "^4.10.0"

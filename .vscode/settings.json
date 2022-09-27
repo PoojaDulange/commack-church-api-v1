@@ -1,11 +1,4 @@
 {
-    "cSpell.words": [
-        "pledgecategory"
-    ],
-    "appService.zipIgnorePattern": [
-        "node_modules{,/**}",
-        ".vscode{,/**}"
-    ],
-    "appService.defaultWebAppToDeploy": "/subscriptions/d7dcf1e1-4868-40bd-8209-9740f354efea/microsoft.web/sites/subscriptions/d7dcf1e1-4868-40bd-8209-9740f354efea/resourceGroups/SST-CHR-RG-STG/providers/Microsoft.Web/sites/SSTCHRAPISTG001",
+    "appService.defaultWebAppToDeploy": "/subscriptions/20caab59-8f5e-4a79-b72f-a029084afcc4/AppServices/subscriptions/20caab59-8f5e-4a79-b72f-a029084afcc4/resourceGroups/rg-church-sst-01/providers/Microsoft.Web/sites/api-church-sst-01",
     "appService.deploySubpath": "."
 }
